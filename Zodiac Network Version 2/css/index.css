@@ -1,0 +1,422 @@
+/* navbar */
+
+body{
+    overflow-x: hidden;
+}
+.banner-image {
+        
+    background-position: center;
+    background-size: auto;
+    height: 100vh;
+    margin-bottom: 5vh;
+}
+.nav-colored { 
+    background-color:#141414;  
+}
+
+.nav-link{
+    font-family: 'Audiowide';
+    font-size: 2vh;
+}
+
+.ZodiacNetwork{
+    color: white;
+    padding-top: 50vh;
+}
+
+.ZodiacM{
+    color: black;
+    text-align: left;
+    font-size: 2vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    padding-bottom: 5vh;
+}
+
+.container {
+  background-position: center;
+  position: relative;
+  background-size: cover;
+  
+}
+
+.chart-wrapper {
+  width: 330px;
+  height: 350px;
+  margin: 0 auto;
+}
+
+/* ABOUT  */
+
+.flexbox-container{
+    display: flex;
+    justify-content: center;
+    height:42vh;
+}
+
+.flexbox-item{
+    margin-bottom: 5vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+/* NFT */
+
+.flexbox-container-NFT{
+    display: flex;
+    justify-content: center;
+    height:75vh;
+    position: relative;
+    top:10vh;
+}
+
+.flexbox-item-NFT{
+   padding-top: 20vh;
+   padding-left: 10vh;
+   padding-right: 10vh;
+   margin-bottom: 10vh;
+}
+
+.imageNFT{
+    height: 30vh;
+}
+
+/* TOKENOMICS */
+
+.flexbox-container-token{
+    display: flex;
+    justify-content: center;
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+    background-color: #f4f6f7;
+}
+
+.flexbox-item{
+    
+    padding-left: 3vh;
+    padding-right: 3vh;
+}
+
+.Tokenomics {
+    text-align: center;
+}
+
+.containerChart {
+    background-position: center;
+    position: relative;
+    background-size: cover;
+}
+  
+.chart-wrapper {
+    height: auto;
+    width: 70vh;
+    margin: 0 auto;
+}
+
+
+.cardmoto {
+    perspective: 900vh;
+    padding-top: 6vh;
+    padding-right: 5vh;
+    padding-left: 5vh;
+    padding-bottom: 5vh;
+    font-size: 3.5vh;
+    text-align: center;
+    background-color: white;
+    border-radius: 1vh;
+}
+
+.cardmoto .paragraph{
+    font-size: 2vh;
+}
+
+.cardmoto .h1{
+    color: gold;
+}
+
+.containerBSC{
+    background-color: #141414;
+    height: 75vh;
+    position: relative;
+    top:0vh;
+}
+
+.containerImage{
+    text-align: center;
+}
+
+.containerLOGO{
+    text-align: center;
+}
+
+.logo {
+    height: 45vh;
+    padding-top: 15vh;
+}
+
+.logoBSC {
+    height: 15vh;
+    padding-top: 10vh;
+    
+}
+
+/* Roadmap */
+
+.roadmap-container{
+    display: flex;
+    justify-content: center;
+    background-position: center; 
+    
+    height:100vh;
+}
+
+.roadmap-item{
+    padding-bottom: 5vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+}
+
+.backgroundcontainer{
+    height: 100vh;
+    padding-top: 5vh;
+    padding-bottom: 0vh;
+}
+
+footer{
+    position: relative;
+    top:0vh;
+}
+
+/* TEAM */
+
+.teamIcon{
+    height: 20vh;
+}
+
+.team-container{
+    display: flex;
+    justify-content: center;
+    background-position: center; 
+    height:75vh;
+    background-color: #f4f6f7;
+}
+
+.team-item{
+    padding-left: 5vh;
+    padding-right: 5vh;
+    padding-top: 25vh;
+}
+
+.team-item-1{
+    order:1;
+    padding-left: 15vh;
+}
+
+.team-item-2{
+    order:2;
+    padding-right: 15vh;
+}
+
+.teamH2{
+    font-size: 5vh;
+}
+
+.teamP{
+    font-size: 3vh;
+}
+
+@media all and (max-width:500px){
+    /* Team */
+
+    .team-container{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: space-between;
+    }
+
+    .flexbox-container{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: space-between;
+    }
+
+    .flexbox-container-NFT{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: space-between;
+        position: relative;
+        height: 115vh;
+        top:120vh;
+    }
+
+    .flexbox-item-NFT{
+        padding-top: 5vh;
+        padding-left: 3vh;
+        padding-right: 3vh;
+     }
+
+     .flexbox-container-token{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: space-between;
+        position: relative;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        height: 93vh;
+        top:120vh;
+    }
+
+    .chart-wrapper {
+        padding-top: 0vh;
+        height: auto;
+        width: 46vh;
+        margin: 0 auto;
+    }
+
+    .imageTOKEN{
+        height:30vh;
+    }
+
+    .flexbox-item-token-1{
+        padding-top: 5vh;
+        
+    }
+
+    .flexbox-item-token-2{
+        height: 45vh;
+    }
+
+
+    .cardmoto {
+        
+        perspective: 900vh;
+        padding-top: 6vh;
+        padding-right: 5vh;
+        padding-left: 5vh;
+        padding-bottom: 5vh;
+        font-size: 2vh;
+        text-align: center;
+        background-color: white;
+        border-radius: 1vh;
+        position: relative;
+   
+    }
+
+    .cardmoto .paragraph{
+        font-size: 1.5vh;
+    }
+   
+
+    .containerBSC{
+        position: relative;
+        top:120vh;
+        height: 50vh;
+    }
+
+    .containerImage{
+        text-align: center;
+    }
+    
+    .logo {
+        height: 25vh;
+        padding-top: 8vh;
+    }
+    .containerLOGO{
+        text-align: center;
+    }
+    .logoBSC {
+        height: 15vh;
+        padding-top: 10vh;
+        padding-left: 0vh;
+    }
+
+    .roadmap-container{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: space-between;
+        position: relative;
+        top:120vh;
+    }
+
+    .roadmap-item{
+        padding-bottom: 5vh;
+        padding-left: 0vh;
+        padding-right: 0vh;
+    }
+    
+    .backgroundcontainer{
+        height: 100vh;
+        padding-left: 0vh;
+        padding-right: 0vh;
+    }
+
+    .teamIcon{
+        height: 20vh;
+    }
+    
+    .team-container{
+        display: flex;
+        justify-content: center;
+        background-position: center; 
+        height:65vh;
+        position: relative;
+        top:120vh;
+    }
+    
+    .team-item{
+        padding-left: 0vh;
+        padding-right: 0vh;
+        padding-top: 0vh;
+    }
+    
+    .team-item-1{
+        order:1;
+        padding-left: 0vh;
+        padding-top: 5vh;
+    }
+    
+    .team-item-2{
+        order:2;
+        padding-right: 5vh;
+        padding-left: 5vh;
+    }
+    
+    .teamH2{
+        font-size: 5vh;
+        position: relative;
+        text-align: center;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+    }
+    
+    .teamP{
+        font-size: 3vh;
+        position: relative;
+        text-align: center;
+        padding-bottom: 5vh;
+    }
+
+    footer{
+        position: relative;
+        top:120vh;
+    }
+
+    .Disclaimer{
+        padding-right: 5vh;
+        padding-left: 5vh;
+    }
+    
+    .Footer{
+        padding-right: 5vh;
+        padding-left: 5vh;
+    }
+
+}
+
+
+

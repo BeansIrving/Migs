@@ -1,0 +1,11 @@
+a.btn{
+    text-decoration: none;
+    font-family: "century gothic";
+    border-radius: 01px;
+    margin: 1vh;
+}
+
+.primary {
+    border: solid white;
+    color: white;
+}
